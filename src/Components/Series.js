@@ -17,7 +17,7 @@ const Series = () => {
     if (
       item.programType === "series" &&
       item.releaseYear >= 2010 &&
-      index <= 21
+      newData.length <= 20
     ) {
       newData.push(item);
     }

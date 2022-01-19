@@ -12,13 +12,13 @@ import windowstore from "../Assets/store/windows-store.svg";
 const Movies = () => {
   const movieData = [];
   moviePostData.entries.map((item, index) => {
-    // console.log(index, "index");
     if (
       item.programType === "movie" &&
-      item.releaseYear >= 2010
-      // index <= 21
+      item.releaseYear >= 2010 &&
+      movieData.length <= 20
     ) {
       movieData.push(item);
+      console.log(index, "index");
     }
   });
   movieData.sort((a, b) => a.title.localeCompare(b.title));
@@ -43,7 +43,11 @@ const Movies = () => {
       <div className="content">
         {movieData
           ? movieData.map((item, index) => {
-              console.log("item", item);
+              {
+                {
+                  console.log("item", item);
+                }
+              }
               return (
                 <>
                   <div className="imagebox">
