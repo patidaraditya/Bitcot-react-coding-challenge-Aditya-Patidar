@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8ca6d5fb.css",
+    "main.js": "/static/js/main.5d3c6622.js",
+    "static/media/play-store.svg": "/static/media/play-store.73d72a5fabde1830e0985ad75ae374fb.svg",
+    "static/media/app-store.svg": "/static/media/app-store.709c1ac0737d8cbbb2588912ba367a64.svg",
+    "static/media/windows-store.svg": "/static/media/windows-store.6c6aaa1ea8e7cf5e075f0a3446a0e6ed.svg",
+    "static/media/instagram-white.svg": "/static/media/instagram-white.43bb1c81d9b9b044eafb8b23fb944b8a.svg",
+    "static/media/twitter-white.svg": "/static/media/twitter-white.d40d391a22b96392f3f31827ccd7ebbf.svg",
+    "index.html": "/index.html",
+    "static/media/facebook-white.svg": "/static/media/facebook-white.dec54804a2500825a0324ce3dd94177a.svg",
+    "main.8ca6d5fb.css.map": "/static/css/main.8ca6d5fb.css.map",
+    "main.5d3c6622.js.map": "/static/js/main.5d3c6622.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ca6d5fb.css",
+    "static/js/main.5d3c6622.js"
+  ]
+}
